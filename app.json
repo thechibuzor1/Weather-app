@@ -1,11 +1,32 @@
 {
+  "displayName": "Weather App",
   "expo": {
     "name": "Weather-app",
     "slug": "Weather-app",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assests/icon.png",
+    "splash": {
+      "image": "./assests/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.downbadbuzor.Weather",
+      "supportsTablet": true,
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package":"com.downbadbuzor.weather",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assests/icon.png",
+        "backgroundColor": "#000000"
+      }
+    }
   },
-  "name": "Weather-app"
+  "name": "Weather app"
 }
